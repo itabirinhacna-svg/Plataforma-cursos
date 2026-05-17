@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 38 53% 96%;
+  --foreground: 26 24% 20%;
+  --card: 0 0% 100%;
+  --card-foreground: 26 24% 20%;
+  --primary: 21 90% 54%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 40 35% 92%;
+  --muted-foreground: 26 16% 38%;
+  --border: 34 28% 83%;
+}
+
+body {
+  @apply bg-[hsl(var(--background))] text-[hsl(var(--foreground))] antialiased;
+}
+
+h1, h2, h3 {
+  @apply text-amber-950;
+}
