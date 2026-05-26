@@ -21,7 +21,7 @@ A base já está preparada para comportar:
 > Estrutura inicial no banco: tabela `teaching_materials` (relacionada com curso/aula).
 
 ## Rodar localmente
-1. Copie `.env.example` para `.env.local` (ou preencha o arquivo já existente)
+1. Copie `.env.example` para `.env.local` e preencha suas chaves do Supabase
 2. Instale dependências: `npm install`
 3. Rode: `npm run dev`
 4. Acesse: `http://localhost:3000`
